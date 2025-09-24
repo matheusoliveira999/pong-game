@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Ping Pong com Recordes</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        h1 {
+            margin-bottom: 10px;
+        }
+        
+        .instructions {
+            margin-bottom: 20px;
+            text-align: center;
+            max-width: 600px;
+        }
+        
+        .controls {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .controls p {
+            margin: 5px 0;
+        }
+        
+        canvas {
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jogo de Ping Pong com Sistema de Recordes</h1>
+    
+    <div class="instructions">
+        <p>Bem-vindo ao Ping Pong! O primeiro jogador a chegar a 10 pontos vence a partida.</p>
+        <p>Os recordes são salvos automaticamente e exibidos no canto superior direito da tela.</p>
+    </div>
+    
+    <div class="controls">
+        <p><strong>Controles:</strong></p>
+        <p>Jogador Esquerdo: W (cima) / S (baixo)</p>
+        <p>Jogador Direito: ↑ (cima) / ↓ (baixo)</p>
+        <p>Pressione 'H' para ocultar/mostrar a tabela de recordes</p>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="pong_game.js"></script>
+</body>
+</html>
+
