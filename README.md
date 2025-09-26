@@ -2,4 +2,8 @@
 
 >status: em desenvolvimento
 
-para rodar esse jogo por favor copie os arquivos e os coloquem no vscode
+para rodar esse jogo por favor copie os arquivos e os coloquem no vscode ou copie esse link
+
+´´´´
+http://127.0.0.1:5501/index.html
+´´´´
